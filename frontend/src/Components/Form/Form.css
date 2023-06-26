@@ -1,0 +1,44 @@
+.form-container {
+    background-color: rgb(0 0 0 / 0.2);
+    backdrop-filter: blur(8px);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+    transition: transform 0.3s ease-in-out;
+}
+
+.form-container.shown {
+    transform: scale(1);
+}
+
+.income-form {
+    position: relative;
+    width: 28rem;
+    max-width: 95%;
+    background-color: #fff;
+    padding: 2.5rem 4rem;
+    border-radius: 1rem;
+}
+
+.income-form h2 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.income-form .close-button {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    font-size: 1rem;
+}
+
+.income-form .close-button i {
+    font-size: inherit;
+}

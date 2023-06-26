@@ -1,0 +1,43 @@
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  background-color: #e9e0e0;
+}
+
+:root {
+  --primary-color: var(#222260);
+  --primary-color2: var(rgba(34, 34, 96, .6));
+  --primary-color3: var(rgba(34, 34, 96, .4));
+  --color-green: #42ad00;
+  --color-grey: #aaa;
+  --color-accent: #f56692;
+  --color-delete: #ff0000;
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+}
+
+input,
+textarea {
+  all: unset;
+}
+
+input,
+textarea,
+select {
+  box-sizing: inherit;
+  font: inherit;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 0.5rem 0.75rem;
+}
+
+i {
+  font-size: inherit;
+}
+
+code {
+  font-family: 'Nunito Sans', sans-serif;
+}
